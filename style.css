@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    font-family: "Barlow", serif;
+}
+.wrapper{
+    background: #191919;
+}
+.container{
+    width: 1596px;
+    margin: 0 auto;
+    border: #282828;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+#header{
+    padding-top: 20px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-border{
+    border: #282828;
+    border-bottom-style: solid;
+}
+
+.left-header{
+    float: left;
+    width: 15%;
+}
+#logo{
+    padding-left: 100px;
+}
+.middle-header{
+    width: 537px;
+    display: flex;
+}
+.right-header{
+    width: 15%;
+}
+ header nav ul {
+     list-style: none;
+     display: flex;
+     justify-content: space-between;
+ }
+ .list{
+     padding-left: 25px;
+     padding-right: 25px;
+     padding-top: 17px;
+     padding-bottom: 17px;
+     border-radius: 25px;
+ }
+ #active{
+     background: #262626;
+ }
+  a{
+     color: white;
+     text-decoration: none;
+ }
+ .list:hover{
+     background: #1E1D1D;
+ }
+ a:hover
+ {
+     color: darkgrey;
+     transition: 0.6s;
+ }
+.contact-us{
+    padding: 15px;
+    height: 59px;
+    width: 135px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #9EFF00;
+    border-radius: 15px;
+    text-decoration: none;
+}
+.contact-us:hover{
+    background: #D5FD9A;
+    transition: 0.6s;
+}
+button a {
+    color: black;
+}
+.hero-section{
+    background: url('images/Abstract Design.png') no-repeat bottom;
+    height: 796px;
+    align-content: center;
+    vertical-align: center;
+}
+.content-hero{
+    width: 100%;
+    height: 410px;
+}
+.Heading-text{
+  font-weight:600;
+    font-size: 68px;
+    text-align: center;
+}
+.description{
+    padding-top: 10px;
+    font-weight: 500;
+    font-size: 22px;
+    width: 865px;
+    height: 98px;
+    margin: auto;
+    align-content:  center;
+    text-align: center;
+    background-color: rgba(40, 40, 40, 0.3);
+    border-radius: 25px;
+}
+div.description span{
+    padding: 15px;
+    background-color: rgba(63, 63, 63, 0.4);
+    border-radius: 15px;
+}
+.hero-buttons{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+#btn2{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.our-works{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 59px;
+    width: 135px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background: #1d1e1b;
+    border-radius: 15px;
+    border-color: #282828;
+    border-style:solid;
+}
+.our-works:hover{
+    background: #575851;
+    transition: 0.6s;
+}
+.trusted-companies{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #282828;
+    text-align: center;
+}
+#trusted-by {
+    font-weight: 500;
+    font-size: 18px;
+    margin: auto;
+    padding: 10px;
+}
+.list-style{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.our-services{
+    background: url('images/Text Container.png') no-repeat;
+    height: 298px;
+    align-content: center;
+}
+.our-services p {
+    text-align: center;
+}
+.list-icons{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.list-heading{
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+.list-content{
+    width: 452px;
+    padding: 40px;
+}
+#central-list-item{
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #282828;
+}
+.div-list-buttons{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+    align-content: center;
+}
+.list-buttons{
+height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    border-style: none;
+    background:#282828;
+}
+.list-buttons:hover{
+    background: #575851;
+    transition: 0.6s;
+}
+#learn-more-list{
+    height: 450px;
+}
+.registration-form{
+    width: 1060px;
+    height: 1174px;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 600;
+}
+#registration-border{
+    border-top-style: solid;
+    border-color: #282828;
+}
+.form-container{
+    width: 900px;
+    margin: auto;
+}
+#name-email{
+    display: flex;
+    justify-content: space-between;
+}
+.personal-data{
+    margin-top: 80px;
+    border-radius: 15px;
+    width: 430px;
+    height: 134px;
+    background: #242424;
+    align-content: center;
+}
+.form-content{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.personal-data input{
+    color: white;
+    font-size: 18px;
+    width: 350px;
+    background: none;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: #282828;
+}
+#contact-container{
+    margin-top: 40px;
+    width: 100%;
+    height: 233px;
+    background: #242424;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+.contact-content{
+    padding-top: 40px;
+    margin-left: 40px;
+}
+.checkmarks{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 80px;
+}
+.checkmarks label{
+    padding-right: 250px;
+}
+.contact-checkmarks{
+    margin-left: 40px;
+    position: static;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    background-color: #262626;
+}
+#form-submit-div{
+    width: 135px;
+    margin: auto;
+}
+#form-submit-button{
+    font-weight: 600;
+    font-size: 20px;
+}
+#register-body{
+    height: 900px;
+}
+#register-background{
+    height: 900px;
+    background: url('images/Abstract Design.png') no-repeat bottom;
+    background: #191919;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#body{
+    color: white;
+    font-family: 'Poppins', Monospace;
+}
+.wrapper{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 10%, rgba(101,9,121,1) 70%);
+    height: 1000px;
+}
+#header {
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+
+.left-header {
+    float: left;
+    height: 100%;
+    width: 15%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.features-span{
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+ span:hover
+ {
+     color: darkgrey;
+     transition: 0.6s;
+ }
+
+.right-header{
+    text-align: center;
+    float: right;
+}
+.registration-button{
+
+}
+
